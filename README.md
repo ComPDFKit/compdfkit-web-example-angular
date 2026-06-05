@@ -1,105 +1,233 @@
 # ComPDF SDK for Web (Angular Example)
 
-As part of the KDAN ecosystem, [ComPDF SDK for Web](https://www.compdf.com/web?utm_source=github&utm_medium=compdfkit-web-example-angular&utm_campaign=compdfkit_web_example_angular_repo&ref_platform_id=github_compdfkit) is a powerful JavaScript-based PDF Library with a slick out-of-the-box responsive UI, which is ideal for developers looking to enhance web apps with powerful PDF features. It enables you to develop a Webviewer in multiple frameworks, including [Vanilla JavaScript](https://www.compdf.com/guides/pdf-sdk/web/make-a-program#integrate-into-a-vanilla-javascript-project?utm_source=github&utm_medium=compdfkit-web-example-angular&utm_campaign=compdfkit_web_example_angular_repo&ref_platform_id=github_compdfkit), [Vue.js](https://www.compdf.com/guides/pdf-sdk/web/frameworks/vue?utm_source=github&utm_medium=compdfkit-web-example-angular&utm_campaign=compdfkit_web_example_angular_repo&ref_platform_id=github_compdfkit), [React](https://www.compdf.com/guides/pdf-sdk/web/frameworks/react?utm_source=github&utm_medium=compdfkit-web-example-angular&utm_campaign=compdfkit_web_example_angular_repo&ref_platform_id=github_compdfkit), [Angular](https://www.compdf.com/guides/pdf-sdk/web/frameworks/angular?utm_source=github&utm_medium=compdfkit-web-example-angular&utm_campaign=compdfkit_web_example_angular_repo&ref_platform_id=github_compdfkit), [Next.js,](https://www.compdf.com/guides/pdf-sdk/web/frameworks/nextjs?utm_source=github&utm_medium=compdfkit-web-example-angular&utm_campaign=compdfkit_web_example_angular_repo&ref_platform_id=github_compdfkit) [Nuxt.js](https://www.compdf.com/guides/pdf-sdk/web/frameworks/nuxtjs?utm_source=github&utm_medium=compdfkit-web-example-angular&utm_campaign=compdfkit_web_example_angular_repo&ref_platform_id=github_compdfkit), [Svelte](https://www.compdf.com/guides/pdf-sdk/web/frameworks/svelte?utm_source=github&utm_medium=compdfkit-web-example-angular&utm_campaign=compdfkit_web_example_angular_repo&ref_platform_id=github_compdfkit), etc.
+As part of the KDAN ecosystem, [ComPDF SDK for Web](https://www.compdf.com/web?utm_source=github_readme_web_example_angular&utm_medium=referral&utm_campaign=github_readme_web_example_angular) is a powerful JavaScript-based PDF library that enables developers to easily add PDF viewing, annotation, editing, and more to their applications across multiple frameworks including [Vanilla JavaScript](https://www.compdf.com/guides/pdf-sdk/web/make-a-program#integrate-into-a-vanilla-javascript-project?utm_source=github_readme_web_example_angular&utm_medium=referral&utm_campaign=github_readme_web_example_angular), [Vue.js](https://www.compdf.com/guides/pdf-sdk/web/frameworks/vue?utm_source=github_readme_web_example_angular&utm_medium=referral&utm_campaign=github_readme_web_example_angular), [React](https://www.compdf.com/guides/pdf-sdk/web/frameworks/react?utm_source=github_readme_web_example_angular&utm_medium=referral&utm_campaign=github_readme_web_example_angular), [Angular](https://www.compdf.com/guides/pdf-sdk/web/frameworks/angular?utm_source=github_readme_web_example_angular&utm_medium=referral&utm_campaign=github_readme_web_example_angular), [Next.js](https://www.compdf.com/guides/pdf-sdk/web/frameworks/nextjs?utm_source=github_readme_web_example_angular&utm_medium=referral&utm_campaign=github_readme_web_example_angular), [Nuxt.js](https://www.compdf.com/guides/pdf-sdk/web/frameworks/nuxtjs?utm_source=github_readme_web_example_angular&utm_medium=referral&utm_campaign=github_readme_web_example_angular), and more — with just a few lines of code.
 
-[ComPDF SDK](https://www.compdf.com/?utm_source=github&utm_medium=compdfkit-web-example-angular&utm_campaign=compdfkit_web_example_angular_repo&ref_platform_id=github_compdfkit) seamlessly operates on [Web](https://www.compdf.com/web?utm_source=github&utm_medium=compdfkit-web-example-angular&utm_campaign=compdfkit_web_example_angular_repo&ref_platform_id=github_compdfkit), [Windows](https://www.compdf.com/windows?utm_source=github&utm_medium=compdfkit-web-example-angular&utm_campaign=compdfkit_web_example_angular_repo&ref_platform_id=github_compdfkit), [Android](https://www.compdf.com/android?utm_source=github&utm_medium=compdfkit-web-example-angular&utm_campaign=compdfkit_web_example_angular_repo&ref_platform_id=github_compdfkit), [iOS](https://www.compdf.com/ios?utm_source=github&utm_medium=compdfkit-web-example-angular&utm_campaign=compdfkit_web_example_angular_repo&ref_platform_id=github_compdfkit), [Mac](https://www.compdf.com/contact-sales?utm_source=github&utm_medium=compdfkit-web-example-angular&utm_campaign=compdfkit_web_example_angular_repo&ref_platform_id=github_compdfkit), and [Server](https://www.compdf.com/server?utm_source=github&utm_medium=compdfkit-web-example-angular&utm_campaign=compdfkit_web_example_angular_repo&ref_platform_id=github_compdfkit), with support for cross-platform frameworks such as [React Native](https://www.compdf.com/react-native?utm_source=github&utm_medium=compdfkit-web-example-angular&utm_campaign=compdfkit_web_example_angular_repo&ref_platform_id=github_compdfkit), [Flutter](https://www.compdf.com/flutter?utm_source=github&utm_medium=compdfkit-web-example-angular&utm_campaign=compdfkit_web_example_angular_repo&ref_platform_id=github_compdfkit), etc.
-
-If you find this library helpful, please consider giving us a ⭐ **Star** on GitHub! Have feedback or questions? Join the conversation in our [Discussions](https://github.com/orgs/ComPDFKit/discussions).
+> If you find this library helpful, please consider giving us a ⭐ **Star** on GitHub! Have feedback or questions? Join the conversation in our [Discussions](https://github.com/orgs/ComPDFKit/discussions).
 
 ![webui](https://www.compdf.com/images/platform/web/webDemo@2x.png)
 
 **Why ComPDF SDK?**
 
-* **Easy to Integrate:** Integrate PDF functionalities easily with our powerful SDK and clear documentation and guides with few lines of code.
-  
-* **Fully Customizable UI:** Design a unique interface for your products with fully customizable UI source code by a high-performing SDK.
-  
-* **[Comprehensive PDF Features:](https://www.compdf.com/pdf-sdk/features-list?utm_source=github&utm_medium=compdfkit-web-example-angular&utm_campaign=compdfkit_web_example_angular_repo&ref_platform_id=github_compdfkit)** Supports generation, viewing, annotation, page editing, content editing, conversion, OCR, redaction, signing, forms, parsing, measurement, compression, comparison, color separation, batch processing, and more.
-  
-* **Faster Time-to-Market:** Comprehensive SDK libraries save your time and expenses and roll out your applications and projects.
-  
-* **High-quality Service:** We provide 24/7 professional one-to-one technical support, including onsite service and remote assistance via phone and email.
-  
+* **Easy to Integrate**: Clear docs and a powerful JavaScript API let you add PDF features in just a few lines of code.
 
-## Related
+* **Fully Customizable UI**: Ship your own look and feel with source-level control over every UI element.
 
-* Download <u>[ComPDF for Web](https://www.npmjs.com/package/@compdfkit_pdf_sdk/webviewer)</u> in npm.
-  
-* Experience how our WebViewer perform by visiting <u>[the online demo of ComPDF SDK](https://www.compdf.com/webviewer/demo?utm_source=github&utm_medium=compdfkit-web-example-angular&utm_campaign=compdfkit_web_example_angular_repo&ref_platform_id=github_compdfkit)</u>
-  
-* Integrating ComPDF SDK for Web into <u>[Salesforce](https://www.compdf.com/pdf-sdk/salesforce?utm_source=github&utm_medium=compdfkit-web-example-angular&utm_campaign=compdfkit_web_example_angular_repo&ref_platform_id=github_compdfkit)</u>, <u>[SharePoint](https://www.compdf.com/pdf-sdk/sharepoint?utm_source=github&utm_medium=compdfkit-web-example-angular&utm_campaign=compdfkit_web_example_angular_repo&ref_platform_id=github_compdfkit)</u>, <u>[Microsoft Teams](https://www.compdf.com/contact-sales?utm_source=github&utm_medium=compdfkit-web-example-angular&utm_campaign=compdfkit_web_example_angular_repo&ref_platform_id=github_compdfkit)</u>, and more.
-  
-* <u>[Build a Web PDF Viewer with Angular](https://www.compdf.com/blog/integrate-compdfkit-web-sdk-in-angular-app?utm_source=github&utm_medium=compdfkit-web-example-angular&utm_campaign=compdfkit_web_example_angular_repo&ref_platform_id=github_compdfkit)</u>.
-  
-* <u>[ComPDF Standalone Deployment for Web](https://www.compdf.com/blog/compdfkit-standalone-deployment-for-web?utm_source=github&utm_medium=compdfkit-web-example-angular&utm_campaign=compdfkit_web_example_angular_repo&ref_platform_id=github_compdfkit)</u>.
-  
-* Experience seamless data extraction from PDFs with our online <u>[Extraction Demo](https://www.compdf.com/data-extraction/demo?utm_source=github&utm_medium=compdfkit-web-example-angular&utm_campaign=compdfkit_web_example_angular_repo&ref_platform_id=github_compdfkit)</u>.
-  
-* Obtain [Intelligent Document Processing](https://www.compdf.com/solutions/intelligent-document-processing?utm_source=github&utm_medium=compdfkit-web-example-angular&utm_campaign=compdfkit_web_example_angular_repo&ref_platform_id=github_compdfkit) - customized one-stop solution.
-  
+* **Comprehensive PDF Features**: View, annotate, edit, convert, OCR, redact, sign, compress, compare, and more — all in one SDK.
 
-## Prerequisites
+* **5×24 Expert Support**: One-to-one technical assistance via email, phone, and on-site service.
 
-To get started, you'll need:
+## Table of Contents
 
-* The latest stable version of Node.js.
+- [Supported Features](#supported-features)
+- [How to Make an Angular PDF Viewer App](#how-to-make-an-angular-pdf-viewer-app)
+- [Free Trial and License](#free-trial-and-license)
+- [Changelog](#changelog)
+- [Support](#support)
+- [Note](#note)
+- [Related](#related)
+
+## Supported Features
+
+* **Viewer**: 
   
-* A package manager compatible with npm(8.5.0 or later).
+  - Fast and smooth PDF rendering and viewing
+  * Display Modes - single/double page, vertical & horizontal scrolling, cover mode, crop mode
+  * Text Search & Selection
+  * PDF Navigation - outlines, bookmarks
+
+* **Annotations**:
   
-* License Key: Get a <u>[free 30-day license key](https://www.compdf.com/pricing?utm_source=github&utm_medium=compdfkit-web-example-angular&utm_campaign=compdfkit_web_example_angular_repo&ref_platform_id=github_compdfkit)</u> to test the project on our website.
+  * Notes - add longer comments with adjustable icon shape and color
+  
+  * Ink - freehand drawing with customizable color, opacity, line thickness
+  
+  * Text - add, move, resize text directly on page
+  
+  * Inspector - adjust annotation looks (line styles, borders, colors, opacity, font)
+  
+  * Comment on Annotations and Update Status
+  
+  * Import & Export & Flatten Annotations (XFDF, FDF, JSON)
+  
+  * Highlight, Underline, Strikeout, Squiggly
+  
+  * Shapes - Rectangle, Oval, Line, Arrow, Polygon, Polyline, Cloud
+  
+  * Stamps, Sound, Movie, File Attachment, Link, Distance, Perimeter, Area
 
+* **Document Editor**: 
+  
+  - Page manipulation - insert, delete, rotate, reorder, extract, crop
+  * Split PDF, Merge PDF
 
-## Getting Started
+* **Content Editor**: Edit PDF text and images directly like in Word
 
-1. Clone the repository:
+* **Signatures**: 
+  
+  - Electronic Signatures - draw, type, image signatures
+  * Digital Signatures - certificate-based signature validation
+
+* **Forms**: 
+  
+  - Process fillable and static PDF forms
+  * Form filling, form creation, form flattening
+
+* **Security**: 
+  
+  - Encryption - set open password, permission password
+  * Restrict printing, copying, editing
+
+* **Redaction**: Permanently remove sensitive content from PDFs
+
+* **Layers**: View, edit, display, lock, and export specific layers within a file
+
+* **Color Separation**: Identify color models like CMYK, PMS. Toggle color visibility and view details.
+
+* **Measurement**: Distance, area, perimeter measurement tools
+
+* **Compare Documents**: Side-by-side document comparison to highlight differences
+
+## How to Make an Angular PDF Viewer App
+
+### Prerequisites
+
+- The latest stable version of Node.js.
+- A package manager compatible with npm (8.5.0 or later).
+- Apply the License Key: Contact [ComPDFKit's sales team](https://www.compdf.com/contact-sales?utm_source=github_readme_web_example_angular&utm_medium=referral&utm_campaign=github_readme_web_example_angular) to get a free 30-day license to test the project.
+
+### Create a New Project
+
+Create a new Angular project:
 
 ```bash
-git clone https://github.com/ComPDFKit/compdfkit-web-example-angular.git
-cd compdfkit-web-example-angular
+npm init @angular compdfkit-app
+cd compdfkit-app
 ```
 
-2. Install the dependencies of the example project with npm:
+When prompted to make a choice, press **Enter** to accept the default options.
+
+### Add ComPDF for Web
+
+1. Install the webviewer package:
 
 ```bash
-npm install
+npm i @compdfkit_pdf_sdk/webviewer --save
 ```
 
-For more information and operations, please visit our <u>[developer documentation](https://www.compdf.com/guides/pdf-sdk/web/angular?utm_source=github&utm_medium=compdfkit-web-example-angular&utm_campaign=compdfkit_web_example_angular_repo&ref_platform_id=github_compdfkit)</u>.
+2. Copy the static resource files to your project's assets folder:
 
-## Free Trial & License
+```bash
+cp -a ./node_modules/@compdfkit_pdf_sdk/webviewer/dist/. ./src/webviewer
+```
 
-Enter your provided license from our Team into the `<Input your license here>` section within `src/app/app.component.ts`.
+3. Add the following to your `angular.json` file so Angular copies the assets before running your app:
 
-ComPDF SDK for Web provides flexible licensing options that you can easily <u>[acquire a license online](https://www.compdf.com/pricing?utm_source=github&utm_medium=compdfkit-web-example-angular&utm_campaign=compdfkit_web_example_angular_repo&ref_platform_id=github_compdfkit)</u>. For further information, you are welcome to <u>[get in touch with our sales team](https://www.compdf.com/contact-sales?utm_source=github&utm_medium=compdfkit-web-example-angular&utm_campaign=compdfkit_web_example_angular_repo&ref_platform_id=github_compdfkit)</u>. Each license is restricted to the main domain and its related subdomains.
+```json
+"assets": [
+  "src/webviewer",
+]
+```
 
-Please be aware that sharing any documentation, sample code, or source code from the ComPDF SDK package with third parties is strictly forbidden.
+### Display a PDF
 
-**Attention:** The license available on GitHub is strictly for demo purposes. If you want to integrate our Web PDF SDK into your Angular project, you can obtain a <u>[free trial license](https://www.compdf.com/pricing?utm_source=github&utm_medium=compdfkit-web-example-angular&utm_campaign=compdfkit_web_example_angular_repo&ref_platform_id=github_compdfkit)</u> by visiting our website.
+1. Add your PDF document to the `src/webviewer/example` directory.
 
+2. Replace the contents of `src/app/app.component.html` with:
 
-## Run the Example
+```html
+<div #viewer class="viewer"></div>
+```
+
+3. Replace the contents of `src/app/app.component.ts` with:
+
+```typescript
+import { Component, AfterViewInit, ViewChild, ElementRef } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
+// @ts-ignore
+import WebViewer from '@compdfkit_pdf_sdk/webviewer';
+
+@Component({
+  selector: 'app-root',
+  standalone: true,
+  imports: [RouterOutlet],
+  templateUrl: './app.component.html',
+  styleUrl: './app.component.css'
+})
+export class AppComponent implements AfterViewInit{
+  @ViewChild('viewer') viewer!: ElementRef;
+
+  ngAfterViewInit(): void {
+    let docViewer: any;
+    WebViewer.init({
+      path: '/',
+      pdfUrl: '/webviewer/example/developer_guide_web.pdf',
+      license: '<Input your license here>'
+    }, this.viewer.nativeElement).then((instance: any) => {
+      docViewer = instance.docViewer;
+
+      docViewer.addEvent('documentloaded', async () => {
+        console.log('document loaded');
+      })
+    })
+  }
+}
+```
+
+4. Add the following styles to `src/app/app.component.css`:
+
+```css
+.viewer { width: 100vw; height: 100vh; }
+```
+
+### Run the App
 
 ```bash
 npm start
 ```
 
-Please visdit `http://localhost:4200` on your broswer. Then, you'll be able to view the PDF docuemnets you want to display.
+Open `http://localhost:4200` on your browser.
+
+## Free Trial and License
+
+Enter your provided license from our Team into the `<Input your license here>` section within `src/app/app.component.ts`.
+
+ComPDF SDK for Web supports flexible licensing options. You can [apply for a license online](https://www.compdf.com/pricing?utm_source=github_readme_web_example_angular&utm_medium=referral&utm_campaign=github_readme_web_example_angular) to use it, reducing the process of contacting the service team and saving you time. If you need more information, you can [contact our sales team](https://www.compdf.com/contact-sales?utm_source=github_readme_web_example_angular&utm_medium=referral&utm_campaign=github_readme_web_example_angular). Each license is valid only for the root domain name and any of its subdomains. 
+
+> *The license we provide on Github can only run the demo. If you want to integrate our Web PDF SDK into your own Angular project, please [apply for a free trial license](https://www.compdf.com/pricing?utm_source=github_readme_web_example_angular&utm_medium=referral&utm_campaign=github_readme_web_example_angular) on the website.*
+
+Please note that it is not allowed to distribute any documents, sample code, or source code from the ComPDF SDK package to third parties.
 
 ## Changelog
 
-Go to our [changelog](https://www.compdf.com/pdf-sdk/changelog-windows?utm_source=github&utm_medium=compdfkit-web-example-angular&utm_campaign=compdfkit_web_example_angular_repo&ref_platform_id=github_compdfkit) to keep up with the latest updates, improvements, and bug fixes.
+Go to our [changelog](https://www.compdf.com/pdf-sdk/changelog-web?utm_source=github_readme_web_example_angular&utm_medium=referral&utm_campaign=github_readme_web_example_angular) to keep up with the latest updates, improvements, and bug fixes.
 
 ## Support
 
-ComPDF has a professional R&D team that produces comprehensive technical documentation and guides to help developers. Additionally, whenever you report an issue to us you'll get an immediate response from our support team, ensuring that any issues you report are resolved promptly.
+ComPDF has a professional R&D team that produces comprehensive technical documentation and guides to help developers. Also, you can get an immediate response when reporting your problems to our support team.
 
-* For detailed information, please visit our <u>[Guides](https://www.compdf.com/guides/pdf-sdk/web/overview?utm_source=github&utm_medium=compdfkit-web-example-angular&utm_campaign=compdfkit_web_example_angular_repo&ref_platform_id=github_compdfkit)</u> page.
-  
-* For technical assistance, please reach out to our <u>[Technical Support](https://www.compdf.com/support?utm_source=github&utm_medium=compdfkit-web-example-angular&utm_campaign=compdfkit_web_example_angular_repo&ref_platform_id=github_compdfkit)</u>.
-  
-* To get more details and an accurate quote, please <u>[contact our Sales Team](https://www.compdf.com/contact-sales?utm_source=github&utm_medium=compdfkit-web-example-angular&utm_campaign=compdfkit_web_example_angular_repo&ref_platform_id=github_compdfkit)</u>.
-  
+- For detailed information, please visit our [Guides](https://www.compdf.com/guides/pdf-sdk/web/overview?utm_source=github_readme_web_example_angular&utm_medium=referral&utm_campaign=github_readme_web_example_angular) page.
+
+- For technical assistance, please reach out to our [Technical Support](https://www.compdf.com/support?utm_source=github_readme_web_example_angular&utm_medium=referral&utm_campaign=github_readme_web_example_angular).
+
+- To get more details and an accurate quote, please contact our [Sales Team](https://compdf.com/contact-sales?utm_source=github_readme_web_example_angular&utm_medium=referral&utm_campaign=github_readme_web_example_angular).
 
 ## Note
 
-We are happy to share the news that you can now sign up for a ComPDF API account to enjoy a <u>[free trial](https://api.compdf.com/api/pricing?utm_source=github&utm_medium=compdfkit-web-example-angular&utm_campaign=compdfkit_web_example_angular_repo&ref_platform_id=github_compdfkit)</u>, allowing you to process up to 200+ API calls each month at no cost.
+We are glad to announce that you can register a ComPDF API account for a [free trial](https://api.compdf.com/api/pricing?utm_source=github_readme_web_example_angular&utm_medium=referral&utm_campaign=github_readme_web_example_angular) to process 200+ API calls per month for free.
+
+## Related
+
+* Download [ComPDF SDK for Web](https://www.npmjs.com/package/@compdfkit_pdf_sdk/webviewer) in npm.
+
+* [Online Demo of ComPDF SDK](https://www.compdf.com/webviewer/demo?utm_source=github_readme_web_example_angular&utm_medium=referral&utm_campaign=github_readme_web_example_angular)
+
+* Integrate ComPDF SDK for Web into [Salesforce](https://www.compdf.com/pdf-sdk/salesforce?utm_source=github_readme_web_example_angular&utm_medium=referral&utm_campaign=github_readme_web_example_angular), [SharePoint](https://www.compdf.com/pdf-sdk/sharepoint?utm_source=github_readme_web_example_angular&utm_medium=referral&utm_campaign=github_readme_web_example_angular), [Microsoft Teams](https://www.compdf.com/contact-sales?utm_source=github_readme_web_example_angular&utm_medium=referral&utm_campaign=github_readme_web_example_angular), etc.
+
+* [Build a Web PDF Viewer with Angular](https://www.compdf.com/blog/integrate-compdfkit-web-sdk-in-angular-app?utm_source=github_readme_web_example_angular&utm_medium=referral&utm_campaign=github_readme_web_example_angular)
+
+* [ComPDF SDK for Web - Standalone Deployment](https://www.compdf.com/blog/compdfkit-standalone-deployment-for-web?utm_source=github_readme_web_example_angular&utm_medium=referral&utm_campaign=github_readme_web_example_angular)
+
+* Experience seamless data extraction from PDFs with our online [Extraction Demo](https://www.compdf.com/data-extraction/demo?utm_source=github_readme_web_example_angular&utm_medium=referral&utm_campaign=github_readme_web_example_angular)
+
+* Obtain [Intelligent Document Processing](https://www.compdf.com/solutions/intelligent-document-processing?utm_source=github_readme_web_example_angular&utm_medium=referral&utm_campaign=github_readme_web_example_angular) - customized one-stop solution.
+
